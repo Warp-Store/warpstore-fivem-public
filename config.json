@@ -1,0 +1,15 @@
+{
+    "token": "mtasa-81edb728-c90b-497e-97ee-ea5c62fc40fe-799544fe-e82c-4e9a-b95f-e642fb75d323",
+    "cooldownRequest": 1000,
+    "chat": {
+        "enabled": true,
+        "global": true,
+        "color": "#ffa852",
+        "format": ":name comprou :product."
+    },
+    "nui": {
+        "enabled": true,
+        "title": "🛒 Parabéns :name",
+        "subTitle": "💗 Você acabou de adquirir :product"
+    }
+}
