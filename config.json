@@ -1,6 +1,6 @@
 {
-    "token": "mtasa-81edb728-c90b-497e-97ee-ea5c62fc40fe-799544fe-e82c-4e9a-b95f-e642fb75d323",
-    "cooldownRequest": 1000,
+    "token": "seu-token",
+    "cooldownRequest": 60000,
     "chat": {
         "enabled": true,
         "global": true,
