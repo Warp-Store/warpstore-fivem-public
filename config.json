@@ -1,6 +1,6 @@
 {
     "token": "seu-token",
-    "cooldownRequest": 60000,
+    "cooldownRequest": 30000,
     "chat": {
         "enabled": true,
         "global": true,
