@@ -1,36 +1,36 @@
 
-vRP = nil
+fWK = nil
 
 if GetResourceState('vrp') ~= 'missing' then
     local Proxy = module("vrp", "lib/Proxy")
-    vRP = Proxy.getInterface("vRP")
+    fWK = Proxy.getInterface("vRP")
 end
 
 function hasGroup(userId, group)
-    return vRP.hasGroup(userId, group)
+    return fWK.hasGroup(userId, group)
 end
 
 function addGroup(userId, group)
     if hasGroup(userId, group) then return end
-    vRP.addUserGroup(userId, group)
+    fWK.addUserGroup(userId, group)
 end
 
 function removeGroup(userId, group)
     if not hasGroup(userId, group) then return end
-    vRP.removeUserGroup(userId, group)
+    fWK.removeUserGroup(userId, group)
 end
 
 function addBank(userId, quantity) 
-    vRP.giveBankMoney(userId, quantity)
+    fWK.giveBankMoney(userId, quantity)
     return;
 end
 
 function removeBankMoney(userId, quantity) 
-    return vRP.setBankMoney(userId, vRP.getBankMoney(userId) - quantity)
+    return fWK.setBankMoney(userId, fWK.getBankMoney(userId) - quantity)
 end
 
 function addMoney(userId, quantity)
-    vRP.giveMoney(userId, quantity)
+    fWK.giveMoney(userId, quantity)
     return;
 end
 
