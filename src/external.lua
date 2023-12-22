@@ -35,7 +35,7 @@ function addMoney(userId, quantity)
 end
 
 function removeMoney(userId, quantity)
-    vRP.setMoney(userId, vRP.getMoney(userId) - quantity)
+    fWK.setMoney(userId, fWK.getMoney(userId) - quantity)
     return;
 end
 
@@ -45,7 +45,7 @@ end
 function isOnline(userId) return findUser(userId) ~= nil end
 
 function findUser(userId)
-    return vRP.getUserSource(userId)
+    return fWK.getUserSource(userId)
 end
 
 -- Ignore estas funções abaixo, elas servem para que nosso sistema consiga chamar as funções criadas a cima.
