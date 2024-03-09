@@ -1,5 +1,5 @@
 {
-    "token": "fivem-2516b579-cf78-4afd-a7bd-ed77cb28e113-ff933700-97dd-496a-9009-a350d4aa3808",
+    "token": "your_token",
     "cooldownRequest": 60000,
     "mysql": {
         "host": "localhost",
