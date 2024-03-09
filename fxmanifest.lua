@@ -7,7 +7,7 @@ author 'Remco Troost (d0p3t)'
 url 'https://github.com/d0p3t/fivem-ts-boilerplate'
 
 client_scripts {'src/warpstore.client.lua'}
-server_scripts {'@vrp/lib/utils.lua', 'src/external.lua', 'src/warpstore.server.js' }
+server_scripts {'@vrp/lib/utils.lua', 'src/warpstore.server.js' }
 
 ui_page "src/index.html"
 
