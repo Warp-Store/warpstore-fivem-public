@@ -8,7 +8,7 @@
         "user": "root",
         "password": ""
     },
-    "basePrefix": "losanjos",
+    "basePrefix": "creative",
     "notify": {
         "prefix": "Notify",
         "success": "sucesso",
