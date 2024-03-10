@@ -1,5 +1,5 @@
 {
-    "token": "your_token",
+    "token": "fivem-aa0be178-de23-4a65-a582-84f9fc798c4b-143a3f3c-a63e-40fa-9155-232b031bbf71",
     "cooldownRequest": 60000,
     "mysql": {
         "host": "localhost",
@@ -8,6 +8,7 @@
         "user": "root",
         "password": ""
     },
+    "basePrefix": "losanjos",
     "notify": {
         "prefix": "Notify",
         "success": "sucesso",
@@ -19,7 +20,7 @@
         "command": "vertempo"
     },
     "chat": {
-        "enabled": true,
+        "enabled": false,
         "global": true,
         "color": "#ffa852",
         "format": ":name comprou :product."
