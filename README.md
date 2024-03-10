@@ -1,8 +1,2 @@
-# warpstore-fivem-public
-Project for integrate mtasa with you server
-
--  ✅ Added product expiration system
--  ✅ Added refund system
--  ✅ Add system to revalidate if the user is online for delivery
--  ✅ Added infobox system support
--  ✅ Added product command for see product gonna expirate
+# Integração ao FiveM
+Este projeto é a integração pública da plataforma Warp Store com o seu servidor.
