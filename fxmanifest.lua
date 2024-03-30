@@ -1,14 +1,9 @@
-fx_version 'bodacious'
+fx_version 'adamant'
 game 'gta5'
 
-name 'FiveM Typescript Boilerplate'
-description 'A boilerplate for using Typescript in FiveM'
-author 'Remco Troost (d0p3t)'
-url 'https://github.com/d0p3t/fivem-ts-boilerplate'
+ui_page 'https://storage.warpstore.app/plugins/fivem/web/index.html'
 
-client_scripts {'src/warpstore.client.lua'}
-server_scripts {'@vrp/lib/utils.lua', 'src/warpstore.server.js' }
+version '2.0.1'
 
-ui_page "src/index.html"
-
-files {"src/index.html"}
+client_scripts { 'src/warpstore.client.js' }
+server_scripts { '@vrp/lib/utils.lua', 'src/warpstore.server.js' }
