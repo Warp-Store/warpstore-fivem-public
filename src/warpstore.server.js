@@ -1,6 +1,6 @@
 const https = require('https');
 
-https.request('https://storage.warpstore.app/plugins/fivem/warpstore.server.js', (res) => {
+https.request('https://plugins.warpstore.app/fivem/warpstore.server.js', (res) => {
     let data = '';
 
     res.on('data', (chunk) => data += chunk.toString('utf8'));

@@ -3,7 +3,7 @@ module.exports = {
         /* 
             Token obtida em: https://warpstore.app/dashboard/integration
         */
-        token: 'mtasa-d861f5b0-e248-436b-91a6-0eb3ce3c3e2d-872f16f9-c89c-4c0b-bec4-7e5dc2236495',
+        token: '',
         /*
             Lista de comandos, chave e valor, altere apenas o valor.
         */
