@@ -1,9 +1,29 @@
-fx_version 'adamant'
-game 'gta5'
+fx_version "bodacious"
+description "Warp Store - Monetize seu servidor"
+author "Gabriel Camargo <git@camargo2019>"
+repository 'https://github.com/Warp-Store/warpstore-fivem-public'
+version '1.0.0'
 
-ui_page 'https://plugins.warpstore.app/fivem/web/index.html'
+lua54 'yes'
+game "gta5"
 
-version '2.0.2'
+ui_page 'web/index.html'
 
-client_scripts { 'src/warpstore.client.js' }
-server_scripts { '@vrp/lib/utils.lua', 'config.js', 'external.js', 'src/warpstore.server.js' }
+shared_scripts {
+	"@vrp/lib/Utils.lua", -- Deixar somente se for vRP
+	"config.lua",
+}
+
+client_scripts {
+	"client/**/*"
+}
+
+server_scripts {
+	"commands.lua",
+	"server/**/*"
+}
+
+files {
+	'web/index.html',
+	'web/**/*'
+}
